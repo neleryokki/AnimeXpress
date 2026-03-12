@@ -389,7 +389,7 @@
 
   <footer>
     <div class="footer-content">
-        <p>© 2025 Anime İzle. Tüm hakları saklıdır.</p>
+        <p>© 2025 AnimeXpress. BY  <a href="https://github.com/neleryokki"> Tüm hakları saklıdır.</p>
         <div class="social-links">
             <a href="#"><i class="fab fa-twitter"></i></a>
             <a href="#"><i class="fab fa-instagram"></i></a>
@@ -421,4 +421,5 @@
         });
     </script>
 </body>
+
 </html>
