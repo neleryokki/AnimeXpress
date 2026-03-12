@@ -3,9 +3,9 @@
 session_start();
 
 $host = 'localhost';
-$db = 'frostsub_anime';
-$user = 'frostsub_anime';
-$pass = 'frostsub3123123123';
+$db = 'db name';
+$user = 'db user';
+$pass = 'dp pass';
 
 $conn = new mysqli($host, $user, $pass, $db);
 
@@ -60,7 +60,7 @@ if (isset($_GET['search'])) {
   "url": "https://frostsubs.com",
   "potentialAction": {
     "@type": "SearchAction",
-    "target": "https://frostsubs.com/index.php?search={search_term_string}",
+    "target": "https://domain.com/index.php?search={search_term_string}",
     "query-input": "required name=search_term_string"
   }
 }
@@ -523,7 +523,7 @@ if (isset($_GET['search'])) {
         
         <div class="footer-bottom">
             <div class="copyright">
-                <p>© 2025 FrostSubs Anime. Tüm hakları saklıdır.</p>
+                <p>© 2025 AnimeXpress. BY <a href="https://github.com/neleryokki">NELER YOK Kİ</a> Tüm hakları saklıdır.</p>
             </div>
             <div class="footer-links">
                 <a href="iletisim.php">İletişim</a>
@@ -691,3 +691,4 @@ if (isset($_GET['search'])) {
 <?php
 $conn->close();
 ?>
+
