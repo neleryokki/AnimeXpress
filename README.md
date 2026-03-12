@@ -1,4 +1,4 @@
-🎌 Anime Website Script
+Anime Website Script
 <p align="center"> <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=28&duration=3000&pause=1000&color=FF4B91&center=true&vCenter=true&width=700&lines=Modern+Anime+Website+Script;Built+with+PHP+%26+MySQL;Dark+Mode+%7C+Admin+Panel+%7C+Responsive;Open+Source+Anime+CMS" /> </p>
 <p align="center">
 
