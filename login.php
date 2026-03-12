@@ -5,9 +5,9 @@ ini_set('display_errors', 1);
 
 // Veritabanı bağlantısı
 $host = 'localhost';
-$db = 'frostsub_anime';
-$user = 'frostsub_anime'; // MySQL kullanıcı adını girin
-$pass = 'frostsub3123123123'; // MySQL şifresini girin
+$db = '';
+$user = ''; // MySQL kullanıcı adını girin
+$pass = ''; // MySQL şifresini girin
 
 $conn = new mysqli($host, $user, $pass, $db);
 
@@ -292,3 +292,4 @@ $conn->close();
     </script>
 </body>
 </html>
+
