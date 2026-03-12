@@ -512,7 +512,7 @@ $kategori_listesi = [
        <header>
         <div class="header-content">
             <div class="logo">
-                <img src="https://i.hizliresim.com/ryiopc0.jpeg" alt="logo">
+                <img src="" alt="logo">
             </div>
             <nav>
                 <ul>
@@ -658,4 +658,5 @@ $kategori_listesi = [
 <?php
 $conn->close();
 ?>
+
 
