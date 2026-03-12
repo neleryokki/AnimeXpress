@@ -1,0 +1,290 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FrostSubs - Gizlilik Politikası</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <style>
+        :root {
+            --primary-color: #7c3aed;
+            --secondary-color: #5b21b6;
+            --bg-light: #f8fafc;
+            --text-light: #334155;
+            --bg-dark: #1e293b;
+            --text-dark: #f1f5f9;
+            --transition: all 0.3s ease;
+        }
+
+        [data-theme="dark"] {
+            --primary-color: #8b5cf6;
+            --secondary-color: #7c3aed;
+            --bg-light: #1e293b;
+            --text-light: #f1f5f9;
+            --bg-dark: #0f172a;
+            --text-dark: #f8fafc;
+        }
+
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Poppins', sans-serif;
+            background-color: var(--bg-light);
+            color: var(--text-light);
+            transition: var(--transition);
+        }
+
+        /* Header Styles */
+        header {
+            background-color: var(--bg-dark);
+            padding: 1rem 2rem;
+            position: sticky;
+            top: 0;
+            z-index: 1000;
+            box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+        }
+
+        .header-content {
+            max-width: 1200px;
+            margin: 0 auto;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        .logo img {
+            width: 50px;
+            height: auto;
+        }
+
+        nav ul {
+            display: flex;
+            gap: 2rem;
+            list-style: none;
+        }
+
+        nav a {
+            color: var(--text-dark);
+            text-decoration: none;
+            font-weight: 500;
+        }
+
+        .user-menu {
+            position: relative;
+        }
+
+        .user-menu button {
+            background: none;
+            border: none;
+            color: var(--text-dark);
+            cursor: pointer;
+            display: flex;
+            align-items: center;
+            gap: 0.5rem;
+        }
+
+        .user-menu-content {
+            display: none;
+            position: absolute;
+            right: 0;
+            background-color: var(--bg-dark);
+            border-radius: 0.5rem;
+            padding: 0.5rem;
+            min-width: 200px;
+        }
+
+        .user-menu:hover .user-menu-content {
+            display: block;
+        }
+
+        .user-menu-content a {
+            color: var(--text-dark);
+            text-decoration: none;
+            padding: 0.75rem 1rem;
+            display: block;
+        }
+
+        /* Gizlilik Politikası Stilleri */
+        .privacy-container {
+            max-width: 1000px;
+            margin: 2rem auto;
+            padding: 0 1rem;
+        }
+
+        .privacy-header {
+            background-color: var(--primary-color);
+            color: white;
+            padding: 2rem;
+            text-align: center;
+            border-radius: 10px;
+            margin-bottom: 2rem;
+        }
+
+        .privacy-content {
+            background-color: var(--bg-dark);
+            border-radius: 10px;
+            padding: 2rem;
+            color: var(--text-dark);
+        }
+
+        .privacy-section {
+            margin-bottom: 2rem;
+            border-bottom: 1px solid rgba(255,255,255,0.1);
+            padding-bottom: 1rem;
+        }
+
+        .privacy-section h2 {
+            color: var(--primary-color);
+            margin-bottom: 1rem;
+        }
+
+        /* Footer Styles */
+        footer {
+            background-color: var(--bg-dark);
+            color: var(--text-dark);
+            padding: 2rem;
+        }
+
+        .footer-content {
+            max-width: 1200px;
+            margin: 0 auto;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        .footer-links {
+            display: flex;
+            gap: 1rem;
+        }
+
+        .footer-links a {
+            color: var(--text-dark);
+            text-decoration: none;
+        }
+
+        .social-links {
+            display: flex;
+            gap: 1rem;
+        }
+
+        .social-links a {
+            color: var(--text-dark);
+            font-size: 1.5rem;
+        }
+    </style>
+</head>
+<body data-theme="dark">
+    <header>
+        <div class="header-content">
+            <div class="logo">
+                <img src="https://i.hizliresim.com/ryiopc0.jpeg" alt="logo">
+            </div>
+            <nav>
+                <ul>
+                    <li><a href="index.php">Anasayfa</a></li>
+                    <li><a href="seriler.php">Seriler</a></li>
+                    <li><a href="oneriler.php">Anime Önerileri</a></li>
+                    <li><a href="iletisim.php">İletişim</a></li>
+                    <li><a href="gizlilikpolitikası.html">Gizlilik Politikası</a></li>
+                </ul>
+            </nav>
+
+            <div class="user-menu">
+               
+                </div>
+            </div>
+        </div>
+    </header>
+
+     <div class="privacy-container">
+        <div class="privacy-header">
+            <h1>Gizlilik Politikası</h1>
+        </div>
+
+        <div class="privacy-content">
+            <div class="privacy-section">
+                <h2>1. Giriş</h2>
+                <p>FrostSubs olarak, kullanıcılarımızın gizliliğine ve kişisel verilerinin korunmasına azami özen gösteriyoruz. Bu gizlilik politikası, web sitemizde topladığımız ve işlediğimiz bilgilerin nasıl kullanıldığını açıklamaktadır.</p>
+            </div>
+
+            <div class="privacy-section">
+                <h2>2. Toplanan Bilgiler</h2>
+                <p>Sitemizi kullanırken aşağıdaki kişisel bilgilerinizi toplayabiliriz:</p>
+                <ul>
+                    <li>Ad ve soyad</li>
+                    <li>E-posta adresi</li>
+                    <li>Kullanıcı adı</li>
+                    <li>IP adresi</li>
+                    <li>Tarayıcı ve cihaz bilgileri</li>
+                    <li>Gezinme geçmişi</li>
+                </ul>
+            </div>
+
+            <div class="privacy-section">
+                <h2>3. Veri Güvenliği</h2>
+                <p>Kişisel verilerinizi korumak için gelişmiş güvenlik önlemleri alıyoruz:</p>
+                <ul>
+                    <li>SSL şifreleme</li>
+                    <li>Güvenlik duvarları</li>
+                    <li>Düzenli güvenlik denetimleri</li>
+                    <li>Şifrelenmiş veri depolama</li>
+                </ul>
+            </div>
+
+            <div class="privacy-section">
+                <h2>4. Çerez Kullanımı</h2>
+                <p>Sitemiz, kullanıcı deneyimini iyileştirmek ve site performansını artırmak için çerezler kullanmaktadır. Çerez ayarlarınızı tarayıcı ayarlarınızdan yönetebilirsiniz.</p>
+            </div>
+
+            <div class="privacy-section">
+                <h2>5. Üçüncü Taraf Paylaşımı</h2>
+                <p>Kişisel verilerinizi kesinlikle üçüncü şahıslarla paylaşmayız. Yasal zorunluluklar haricinde hiçbir kurumla bilgilerinizi paylaşmayız.</p>
+            </div>
+
+            <div class="privacy-section">
+                <h2>6. Kullanıcı Hakları</h2>
+                <p>Kullanıcılar olarak aşağıdaki haklara sahipsiniz:</p>
+                <ul>
+                    <li>Kişisel verilerinize erişim</li>
+                    <li>Verilerinizi düzeltme</li>
+                    <li>Verilerinizi silme</li>
+                    <li>Veri işleme faaliyetlerine itiraz etme</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+
+ <footer>
+        <div class="footer-content">
+            <div class="footer-links">
+                <a href="hakkimizda.php">Hakkımızda</a>
+                <a href="iletisim.php">İletişim</a>
+                <a href="gizlilikpolitikası.html">Gizlilik Politikası</a>
+            </div>
+            <div class="social-links">
+                <a href="#" target="_blank"><i class="fab fa-twitter"></i></a>
+                <a href="#" target="_blank"><i class="fab fa-instagram"></i></a>
+                <a href="#" target="_blank"><i class="fab fa-discord"></i></a>
+                <a href="#" target="_blank"><i class="fab fa-youtube"></i></a>
+            </div>
+            <p>© 2025 FrostSubs Anime. Tüm hakları saklıdır.</p>
+        </div>
+    </footer>
+
+    <script>
+        const themeToggle = document.getElementById('theme-toggle');
+        const body = document.body;
+
+        // Varsayılan olarak dark mode'u etkinleştir
+        document.addEventListener('DOMContentLoaded', () => {
+            body.setAttribute('data-theme', 'dark');
+        });
+    </script>
+</body>
+</html>
