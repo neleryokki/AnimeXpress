@@ -4,9 +4,9 @@ session_start();
 
 // Veritabanı bağlantısı
 $host = 'localhost';
-$db = 'frostsub_anime';
-$user = 'frostsub_anime';
-$pass = 'frostsub3123123123';
+$db = 'db Name';
+$user = 'db user';
+$pass = 'db pass';
 
 $conn = new mysqli($host, $user, $pass, $db);
 
@@ -90,7 +90,7 @@ $total_pages = ceil($total_items / $items_per_page);
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>FrostSubs - Seriler</title>
+    <title>AnimeXpress - Seriler</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
     <style>
@@ -492,7 +492,7 @@ $total_pages = ceil($total_items / $items_per_page);
     <header>
         <div class="header-content">
             <div class="logo">
-                <img src="https://i.hizliresim.com/ryiopc0.jpeg" alt="logo">
+                <img src="Logonuz" alt="logo">
             </div>
             <nav>
                 <ul>
@@ -617,7 +617,7 @@ $total_pages = ceil($total_items / $items_per_page);
                 <a href="#" target="_blank"><i class="fab fa-discord"></i></a>
                 <a href="#" target="_blank"><i class="fab fa-youtube"></i></a>
             </div>
-            <p>© 2025 FrostSubs Anime. Tüm hakları saklıdır.</p>
+            <p>© 2025 AnimeXpress by Neleryokki. Tüm hakları saklıdır.</p>
         </div>
     </footer>
 
@@ -650,3 +650,4 @@ $total_pages = ceil($total_items / $items_per_page);
 <?php
 $conn->close();
 ?>
+
