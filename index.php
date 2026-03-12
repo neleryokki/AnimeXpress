@@ -398,7 +398,7 @@ if (isset($_GET['search'])) {
 <link rel="dns-prefetch" href="//fonts.googleapis.com">
         <div class="header-content">
             <div class="logo">
-                <img src="https://i.hizliresim.com/ryiopc0.jpeg" alt="logo">
+                <img src="" alt="logo">
             </div>
             <nav>
                 <ul>
@@ -691,4 +691,5 @@ if (isset($_GET['search'])) {
 <?php
 $conn->close();
 ?>
+
 
