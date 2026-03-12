@@ -4,9 +4,9 @@ session_start();
 
 // Veritabanı bağlantısı
 $host = 'localhost';
-$db = 'frostsub_anime';
-$user = 'frostsub_anime';
-$pass = 'frostsub3123123123';
+$db = 'db name';
+$user = 'db user';
+$pass = 'db pass';
 
 $conn = new mysqli($host, $user, $pass, $db);
 
@@ -625,7 +625,7 @@ $kategori_listesi = [
                 <a href="#" target="_blank"><i class="fab fa-discord"></i></a>
                 <a href="#" target="_blank"><i class="fab fa-youtube"></i></a>
             </div>
-            <p>© 2025 FrostSubs Anime. Tüm hakları saklıdır.</p>
+            <p>© 2025 AnimeXpress BY<a href="github.com/neleryokki" target="_blank">></i></a> . Tüm hakları saklıdır.</p>
         </div>
     </footer>
 
@@ -658,3 +658,4 @@ $kategori_listesi = [
 <?php
 $conn->close();
 ?>
+
