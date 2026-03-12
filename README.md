@@ -1,4 +1,5 @@
-Anime Website Script
+🎌 Anime Website Script
+<p align="center"> <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=28&duration=3000&pause=1000&color=FF4B91&center=true&vCenter=true&width=700&lines=Modern+Anime+Website+Script;Built+with+PHP+%26+MySQL;Dark+Mode+%7C+Admin+Panel+%7C+Responsive;Open+Source+Anime+CMS" /> </p>
 <p align="center">
 
 
@@ -8,37 +9,40 @@ Anime Website Script
 
 
 
-</p> <p align="center"> Modern, hızlı ve SEO uyumlu <b>Anime Web Site Scripti</b><br> PHP ve MySQL ile geliştirilmiş güçlü bir anime içerik yönetim sistemi. </p>
 
-.
 
-🚀 Özellikler
+</p>
+🚀 About The Project
 
-✨ Modern Anime Website Script
+Anime Website Script is a modern, fast and lightweight anime website system developed with PHP and MySQL.
+
+It allows you to easily create your own anime streaming or anime listing website with a clean UI and powerful admin panel.
+
+The system is optimized for speed, SEO and mobile devices.
+
+✨ Features
 
 🌙 Dark Mode / Light Mode
 
-🎛 Gelişmiş Admin Panel
+🎛 Advanced Admin Panel
 
-📺 Anime Listeleme Sistemi
+📺 Anime Listing System
 
-🔎 Anime Arama
+🔎 Anime Search System
 
-📂 Kategori Sistemi
+📂 Category Management
 
-📱 Responsive Tasarım
+⚡ Fast & Optimized Code
 
-⚡ Hızlı ve Optimize Kod
+📱 Fully Responsive Design
 
-📰 Anime Detay Sayfaları
+🔐 Secure Admin Login
 
-🔐 Güvenli Admin Login
+📰 Anime Detail Pages
 
-🧩 Kolay Kurulum
+🧩 Easy Installation
 
-🛠 Teknolojiler
-
-Bu proje aşağıdaki teknolojiler ile geliştirilmiştir.
+🛠 Built With
 
 PHP
 
@@ -52,64 +56,68 @@ JavaScript
 
 Bootstrap
 
-📦 Kurulum
-1️⃣ Projeyi indirin
-git clone https://github.com/kullaniciadi/anime-website-script.git
-2️⃣ Hosting veya Localhost'a yükleyin
+📦 Installation
+1 Clone the repository
+git clone https://github.com/username/anime-website-script.git
+2 Upload files
 
-Proje dosyalarını web sunucunuza yükleyin.
+Upload the project files to your web hosting or localhost server.
 
-3️⃣ Veritabanı oluşturun
+3 Create a database
 
-MySQL üzerinden yeni bir veritabanı oluşturun.
+Create a MySQL database using phpMyAdmin.
 
-4️⃣ config dosyasını düzenleyin
+4 Configure database
+
+Edit the config.php file.
+
 $db_host = "localhost";
 $db_user = "root";
 $db_pass = "";
 $db_name = "anime_site";
-5️⃣ SQL dosyasını içe aktarın
+5 Import SQL
 
-database.sql dosyasını phpMyAdmin üzerinden içe aktarın.
+Import the database.sql file into your database.
 
 🔐 Admin Panel
 
-Admin paneline şu adresten erişebilirsiniz:
+Admin panel access:
 
 /admin
 
-Admin panel üzerinden:
+From the admin panel you can:
 
-Anime ekleme
+Add anime
 
-Anime düzenleme
+Edit anime
 
-Anime silme
+Delete anime
 
-Kategori yönetimi
+Manage categories
 
-Site ayarları
+Control website settings
 
-işlemleri yapılabilir.
+🤝 Contributing
 
-⭐ Katkıda Bulunma
+Contributions are welcome.
 
-Projeye katkıda bulunmak istersen:
+Fork the repository
 
-Fork yap
+Create a new branch
 
-Yeni branch oluştur
+Make your changes
 
-Değişiklik yap
+Submit a pull request
 
-Pull Request gönder
-
+📊 GitHub Stats
+<p align="center"> <img src="https://github-readme-stats.vercel.app/api?username=USERNAME&show_icons=true&theme=tokyonight"> <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=USERNAME&layout=compact&theme=tokyonight"> </p>
 📜 License
 
 This project is licensed under the MIT License.
 
-❤️ Support
+⭐ Support
 
-Projeyi beğendiysen:
+If you like this project:
 
-⭐ Repo’ya yıldız bırakmayı unutma!
+⭐ Star the repository on GitHub
+🍴 Fork the project
